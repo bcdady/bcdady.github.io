@@ -1876,18 +1876,11 @@ textarea {
 }
 
 a {
-  -moz-transition:
-    color 0.2s ease-in-out,
+  -moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out,
     border-bottom-color 0.2s ease-in-out;
-  -webkit-transition:
-    color 0.2s ease-in-out,
-    border-bottom-color 0.2s ease-in-out;
-  -ms-transition:
-    color 0.2s ease-in-out,
-    border-bottom-color 0.2s ease-in-out;
-  transition:
-    color 0.2s ease-in-out,
-    border-bottom-color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
   color: #ffffff;
   text-decoration: none;
@@ -2943,18 +2936,10 @@ button:disabled,
 }
 
 #header h1 {
-  -moz-transition:
-    opacity 0.2s ease-in-out,
-    visibility 0.2s;
-  -webkit-transition:
-    opacity 0.2s ease-in-out,
-    visibility 0.2s;
-  -ms-transition:
-    opacity 0.2s ease-in-out,
-    visibility 0.2s;
-  transition:
-    opacity 0.2s ease-in-out,
-    visibility 0.2s;
+  -moz-transition: opacity 0.2s ease-in-out, visibility 0.2s;
+  -webkit-transition: opacity 0.2s ease-in-out, visibility 0.2s;
+  -ms-transition: opacity 0.2s ease-in-out, visibility 0.2s;
+  transition: opacity 0.2s ease-in-out, visibility 0.2s;
   border-bottom: 0;
   font-size: 0.8em;
   margin-bottom: 0;
@@ -3107,18 +3092,10 @@ button:disabled,
   -webkit-pointer-events: none;
   -ms-pointer-events: none;
   pointer-events: none;
-  -moz-transition:
-    opacity 0.35s ease,
-    visibility 0.35s;
-  -webkit-transition:
-    opacity 0.35s ease,
-    visibility 0.35s;
-  -ms-transition:
-    opacity 0.35s ease,
-    visibility 0.35s;
-  transition:
-    opacity 0.35s ease,
-    visibility 0.35s;
+  -moz-transition: opacity 0.35s ease, visibility 0.35s;
+  -webkit-transition: opacity 0.35s ease, visibility 0.35s;
+  -ms-transition: opacity 0.35s ease, visibility 0.35s;
+  transition: opacity 0.35s ease, visibility 0.35s;
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
@@ -3142,18 +3119,10 @@ button:disabled,
   -webkit-transform: translateY(0.5em);
   -ms-transform: translateY(0.5em);
   transform: translateY(0.5em);
-  -moz-transition:
-    opacity 0.35s ease,
-    -moz-transform 0.35s ease;
-  -webkit-transition:
-    opacity 0.35s ease,
-    -webkit-transform 0.35s ease;
-  -ms-transition:
-    opacity 0.35s ease,
-    -ms-transform 0.35s ease;
-  transition:
-    opacity 0.35s ease,
-    transform 0.35s ease;
+  -moz-transition: opacity 0.35s ease, -moz-transform 0.35s ease;
+  -webkit-transition: opacity 0.35s ease, -webkit-transform 0.35s ease;
+  -ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
+  transition: opacity 0.35s ease, transform 0.35s ease;
   -webkit-overflow-scrolling: touch;
   background: #4c5c96;
   border-radius: 5px;
@@ -3262,18 +3231,10 @@ body.is-menu-visible #menu .inner {
 }
 
 #banner .logo {
-  -moz-transition:
-    opacity 2s ease,
-    -moz-transform 1s ease;
-  -webkit-transition:
-    opacity 2s ease,
-    -webkit-transform 1s ease;
-  -ms-transition:
-    opacity 2s ease,
-    -ms-transform 1s ease;
-  transition:
-    opacity 2s ease,
-    transform 1s ease;
+  -moz-transition: opacity 2s ease, -moz-transform 1s ease;
+  -webkit-transition: opacity 2s ease, -webkit-transform 1s ease;
+  -ms-transition: opacity 2s ease, -ms-transform 1s ease;
+  transition: opacity 2s ease, transform 1s ease;
   -moz-transform: translateY(0);
   -webkit-transform: translateY(0);
   -ms-transform: translateY(0);
@@ -3295,22 +3256,13 @@ body.is-menu-visible #menu .inner {
 }
 
 #banner h2 {
-  -moz-transition:
-    opacity 0.5s ease,
-    -moz-transform 0.5s ease,
+  -moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease,
     -moz-filter 0.25s ease;
-  -webkit-transition:
-    opacity 0.5s ease,
-    -webkit-transform 0.5s ease,
+  -webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease,
     -webkit-filter 0.25s ease;
-  -ms-transition:
-    opacity 0.5s ease,
-    -ms-transform 0.5s ease,
+  -ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease,
     -ms-filter 0.25s ease;
-  transition:
-    opacity 0.5s ease,
-    transform 0.5s ease,
-    filter 0.25s ease;
+  transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
   -moz-transform: translateX(0);
   -webkit-transform: translateX(0);
   -ms-transform: translateX(0);
@@ -3331,22 +3283,13 @@ body.is-menu-visible #menu .inner {
 }
 
 #banner p {
-  -moz-transition:
-    opacity 0.5s ease,
-    -moz-transform 0.5s ease,
+  -moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease,
     -moz-filter 0.25s ease;
-  -webkit-transition:
-    opacity 0.5s ease,
-    -webkit-transform 0.5s ease,
+  -webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease,
     -webkit-filter 0.25s ease;
-  -ms-transition:
-    opacity 0.5s ease,
-    -ms-transform 0.5s ease,
+  -ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease,
     -ms-filter 0.25s ease;
-  transition:
-    opacity 0.5s ease,
-    transform 0.5s ease,
-    filter 0.25s ease;
+  transition: opacity 0.5s ease, transform 0.5s ease, filter 0.25s ease;
   -moz-transform: translateX(0);
   -webkit-transform: translateX(0);
   -ms-transform: translateX(0);
@@ -3488,9 +3431,7 @@ body.is-loading #banner p {
       ),
       url("../../images/bg.jpg");
     background-size: auto, cover;
-    background-position:
-      center,
-      0% 30%;
+    background-position: center, 0% 30%;
     margin-bottom: -6.5em;
   }
 }
@@ -3499,9 +3440,7 @@ body.is-loading #banner p {
   #wrapper > header {
     padding: 11em 3em 7.375em 3em;
     background-size: auto, cover;
-    background-position:
-      center,
-      0% 0%;
+    background-position: center, 0% 0%;
     margin-bottom: -4.75em;
   }
 
